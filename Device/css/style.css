@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: "ManropeRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Manrope-Regular"),
+        url("../fonts/Manrope-Regular.woff2"),
+        url("../fonts/Manrope-Regular.woff");
+}
+@font-face {
+    font-family: "ManropeExtra";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Manrope-ExtraBold"),
+        url("../fonts/Manrope-ExtraBold.woff2"),
+        url("../fonts/Manrope-ExtraBold.woff");
+}
+
+.container{
+    z-index: 5;
+    width: 1120px;
+    margin: 0 auto;
+}
+.device-block{
+    background-color: #5404f7;
+    display: inline-block;
+    width: 445px;
+    vertical-align: middle;
+
+}
+.device-block-title{
+    font-family: "ManropeExtra";
+    font-size: 48px;
+}
+.device-benefits{
+    display: inline-block;
+    width: 635px;
+    vertical-align: middle;
+    margin-left: -4px;
+    margin-top: 140px;
+}
+.step>div{
+    display: inline-block;
+}
+.step{
+    height: 218px;
+    background: #F1E4FF;
+}
+.step-img{
+    vertical-align: middle;
+}
+.step-text{
+    font-family: "ManropeRegular";
+    width: 299px;
+    height: 122px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.step-title{
+    font-family: "ManropeExtra";
+    font-size: 14px;
+    text-transform:uppercase;
+    padding: 48px 0 8px 0;
+}
+.step1:hover, .step2:hover, .step3:hover{
+    background: #8C30F5;
+}
+.shadow{
+    position: absolute;
+    background: #F4F5F7;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+}
